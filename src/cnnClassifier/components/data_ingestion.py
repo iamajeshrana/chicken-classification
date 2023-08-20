@@ -8,8 +8,6 @@ from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
 from pathlib import Path
 
-
-
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
